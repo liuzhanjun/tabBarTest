@@ -1,0 +1,24 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-betweent;
+
+}
+
+.contain{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rebeccapurple;
+  
+}

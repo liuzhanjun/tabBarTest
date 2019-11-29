@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="contain">
+
+  <scroll-view class="content" scroll-y="true" style="height:{{contentHegith}}px">
+    <view wx:if="{{current=='homepage'}}">
+      <home></home>
+    </view>
+     <view wx:if="{{current=='shop'}}">
+      <shop></shop>
+    </view>
+     <view wx:if="{{current=='mine'}}">
+      <personCenter></personCenter>
+    </view>
+    
+</scroll-view>
+
+
+  
+  <i-tab-bar current="{{ current }}" bindchange="handleChange" fixed="false">
+    <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="Home"></i-tab-bar-item>
+    <i-tab-bar-item key="shop" icon="publishgoods_fill" current-icon="publishgoods_fill" count="3" title="购物车"></i-tab-bar-item>
+    <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" dot="{{true}}" title="个人中心"></i-tab-bar-item>
+  </i-tab-bar>
+
+</view>

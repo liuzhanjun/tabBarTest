@@ -1,0 +1,3 @@
+<!--miniprogram/pages/index/shop/shop.wxml-->
+<text>miniprogram/pages/index/shop/shop.wxml</text>
+<button bindtap="click">xxx</button>

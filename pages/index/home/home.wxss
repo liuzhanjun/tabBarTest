@@ -1,0 +1,6 @@
+/* miniprogram/pages/index/home.wxss */
+.contain{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
